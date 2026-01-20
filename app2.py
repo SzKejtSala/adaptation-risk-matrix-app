@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("🌍 Climate Adaptation Risk Matrix (H × E × V) – wersja projektowa")
 st.caption(
     "Wybierz temat projektu i wypełnij macierz ryzyka. Aplikacja porządkuje priorytety adaptacyjne "
-    "na podstawie modelu: Ryzyko = Poziom zagrożenia/ryzyka × Ekspozycja × Wrażliwość (skala 1–5)."
+    "na podstawie modelu: Ryzyko = Poziom zagrożenia/ryzyka (H-Hazard) × Ekspozycja (E) × Wrażliwość (V) (skala 1–5)."
 )
 
 st.divider()
@@ -206,3 +206,4 @@ with right:
         "Aplikacja nie zapisuje danych. Przepisz wartości H/E/V i wynikowy ranking do formularza w UPeL."
 
     )
+
